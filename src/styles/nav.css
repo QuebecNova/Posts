@@ -1,0 +1,16 @@
+nav {
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(200, 200, 200);
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+}

@@ -1,0 +1,10 @@
+.btn {
+    padding: 5px 15px;
+    min-width: fit-content;
+    height: fit-content;
+    color: teal;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid teal;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+@import 'nav.css';
+@import 'CSSTransition.css';
+@import 'pages.css';
+@import 'posts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.App {
+    margin-top: 20px;
+    width: 800px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.dynamicPaginaton {
+    height: 10px;
+}

@@ -1,0 +1,25 @@
+.post {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 2px solid teal;
+    margin-top: 15px;
+}
+
+.posts-not-found {
+    text-align: center;
+}
+
+.comments {
+    border-top: 1px solid teal;
+    margin-top: 20px;
+}
+
+.comment {
+    margin-top: 20px;
+}
+
+.comment-content {
+    border: 1px solid teal;
+    padding: 5px;
+}

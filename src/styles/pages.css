@@ -1,0 +1,24 @@
+.pages {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid teal;
+    width: 30px;
+    height: 30px;
+}
+
+.page-active {
+    border: 1px solid saddlebrown;
+}
+
+.page:hover {
+    border: 1px solid saddlebrown;
+    font-weight: bold;
+    cursor: pointer;
+}
