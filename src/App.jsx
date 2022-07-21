@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import { BrowserRouter } from "react-router-dom"
+import { HashRouter } from "react-router-dom"
 import AppRouter from "./pages/AppRouter"
 import NavBar from "./pages/NavBar"
 import { useDispatch } from "react-redux/es/exports"
@@ -16,10 +16,10 @@ function App() {
     }, [dispatch])
     
   return (
-    <BrowserRouter>
+    <HashRouter>
         <NavBar/>
         <AppRouter/>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
